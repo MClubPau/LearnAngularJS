@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div ng-app="" ng-init="firstName='John'">
+    <div ng-app="" ng-init="person={firstName:'John', lastName:'Doe'}">
 
-    <p>The name is <span ng-bind="firstName"></span></p>
+        <p>The name is {{ person.lastName }}</p>
 
     </div>
 
